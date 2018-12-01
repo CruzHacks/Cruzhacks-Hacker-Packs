@@ -42,5 +42,14 @@ Find out more [about Glitch](https://glitch.com/about).
 \ ゜o゜)ノ
 
 
+=================
+Python Workshop
+See the folder for details :) 
+
+=================
+Amazon Alexa Workshop
+See the folder for details :) 
+
 ### Getting stuck ?
 Mentors with sticker badges are roaming around the event.  We don't bite :)   
+
