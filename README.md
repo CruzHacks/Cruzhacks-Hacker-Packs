@@ -26,8 +26,9 @@ Want to learn new technologies? This repo contains the powerpoints from previous
 We will be providing lunch and dinner for free at the event!
 
 ### Prizes
-1st – Secret :)
-2nd – Secret :)
+1st – Secret :)\
+2nd – Secret :)\
 3rd – Secret :)
+
 
 :) Happy Hacking
