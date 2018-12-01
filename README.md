@@ -6,3 +6,5 @@ Want to learn new technologies? This repo contains the powerpoints from previous
 * Build your first website
 * Solve puzzles with Python
 * Build your first skill with Amazon Alexa
+
+:) Happy Hacking
