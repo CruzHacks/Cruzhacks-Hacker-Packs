@@ -43,4 +43,4 @@ Find out more [about Glitch](https://glitch.com/about).
 
 
 ### Getting stuck ?
-Ask mentors roaming around event or come to the front podium.  We don't bite :)   
+Mentors with sticker badges are roaming around the event.  We don't bite :)   
