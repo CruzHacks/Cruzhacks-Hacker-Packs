@@ -1,3 +1,7 @@
+#### NOTE: Please post all your projects on devpost to showcase your work (and win prizes)!!!
+https://swe-x-cruzhacks-hackathon.devpost.com/
+
+
 ### Local Hack Day
 Just arrived? Visit https://localhackday.mlh.io/live for information to join the slack channel and devpost (we use that to submit our projects) 
 
