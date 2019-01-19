@@ -1,0 +1,17 @@
+{
+  "name": "hackerlog",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "~4.16.0",
+    "express-validator": "^5.3.0",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.14"
+  }
+}

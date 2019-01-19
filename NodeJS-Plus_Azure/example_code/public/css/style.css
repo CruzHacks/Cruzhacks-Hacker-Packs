@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'Consolas';
+  src: URL('/font/Consolas.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Consolas Bold';
+  src: URL('/font/ConsolasBold.ttf') format('ttf');
+}
+
+html {
+  background: black url(/img/background.png) left top no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.page-wrap {
+  padding: 50px;
+  font: 14px 'Consolas', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 10px;
+}
+
+.page-button {
+  background: white;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.page-button.active {
+  background: #818181;
+  color: white;
+  border: 1px white solid;
+}
+
+.mlh-logo {
+  background: url("/img/mlh-logo-white.svg") no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 100px
+}
+
+.azure-logo {
+  background: url("/img/azure.svg") no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.plus {
+  font: 14px 'Consolas Bold', serif;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.update-form {
+  flex: 1;
+  width: 600px;
+  margin-bottom: 25px;
+}
+
+.close {
+  float: right;
+  display: block;
+  color: white;
+  font-size: 10px;
+}
+
+.error-message {
+  flex: 1;
+  display: flex;
+  background: red;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.input-label {
+  color: white;
+  font-size: 35px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+}
+
+.input-field {
+  height: 25px;
+  flex: 1;
+  border-radius: 2px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+.spacer {
+  flex: 1;
+  margin: 12px;
+}
+
+.update-section {
+  display: flex;
+}
+
+.update-field {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.auth {
+  display: flex;
+  flex: 1;
+}
+
+.update-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.update {
+  display: flex;
+  margin: 10px 5px;
+  background: white;
+  min-height: 75px;
+  border-radius: 5px;
+  flex: 1;
+  align-items: center;
+}
+
+.update > .name {
+  padding: 10px;
+  flex: 1;
+}
+
+.submit-button {
+  background-color: #818181;
+  color: white;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Consolas Bold", serif;
+  cursor: pointer;
+}
+
+.update > .content {
+  flex: 4;
+  padding: 10px;
+}
+
+.update > .time {
+  flex: 2;
+  text-align: right;
+  padding: 10px;
+}

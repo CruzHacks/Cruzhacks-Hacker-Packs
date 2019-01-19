@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="page-wrap">
+<div class="logos">
+  <div class="mlh-logo"></div>
+  <span class="plus">+</span>
+  <div class="azure-logo"></div>
+</div>
+<form class="update-form" action="/update" method="post">
+  <% if (wrongPassword) { %>
+    <div class="error-message">
+      <span class="message">That password is not correct!</span>
+    </div>
+  <% } %>
+  <section class="auth">
+    <div class="field">
+      <label class="input-label" for="name">Name</label>
+      <input class="input-field" type="text" id="name" name="name" required>
+    </div>
+    <div class="field">
+      <label class="input-label" for="password">Password</label>
+      <input class="input-field" type="password" id="password" name="password" required>
+    </div>
+  </section>
+  <section class="update-section">
+    <div class="update-field">
+      <label class="input-label" for="update">Update</label>
+      <input class="input-field" type="text" id="update" name="update" required>
+    </div>
+    <div class="field">
+      <div class="spacer"></div>
+      <input class="input-field submit-button" id="submit" type="submit" value="SUBMIT" required>
+    </div>
+  </section>
+</form>
+<div class="update-wrap">
+  <% for(var i = 0; i < updates.length; i++) { %>
+    <div class="update">
+      <div class="name"><%= updates[ i ].name %></div>
+      <div class="content"><%= updates[ i ].update %></div>
+      <div class="time"><%= moment(updates[ i ].createdAt).fromNow(); %></div>
+    </div>
+  <% } %>
+
+</div>
+<div class="pagination">
+  <% for (var i = 0; i < pages; i++) { %>
+    <a class="page-button <%= i == page ? "active" : ""%>" href="?page=<%= i %>"><%= i + 1 %></a>
+  <% } %>
+</div>
+</body>
+</html>
