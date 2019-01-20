@@ -1,0 +1,17 @@
+{
+  "name": "node_api_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
